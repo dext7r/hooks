@@ -1,0 +1,49 @@
+{
+  "private": true,
+  "author": "h7ml <h7ml@qq.com>",
+  "scripts": {
+    "dev": "max dev",
+    "build": "max build",
+    "format": "prettier --cache --write .",
+    "prepare": "husky install",
+    "postinstall": "max setup",
+    "setup": "max setup",
+    "start": "npm run dev",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "@ant-design/pro-components": "^2.0.1",
+    "@umijs/max": "^4.0.31",
+    "@unocss/cli": "^0.46.5",
+    "antd": "^4.20.7",
+    "test": "github:umi/test",
+    "unocss": "^0.46.5"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13",
+    "@types/jest": "^27",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@types/testing-library__jest-dom": "^5.14.5",
+    "@umijs/lint": "^4.0.31",
+    "husky": "^8",
+    "jest": "^27",
+    "lint-staged": "^13",
+    "prettier": "^2",
+    "prettier-plugin-organize-imports": "^2",
+    "prettier-plugin-packagejson": "^2",
+    "tailwindcss": "^3",
+    "ts-node": "^10",
+    "typescript": "^4",
+    "@dext7r/cz-config": "^1.0.0",
+    "cz-customizable": "^7.0.0",
+    "cz-conventional-changelog": "3.3.0"
+  }
+}
